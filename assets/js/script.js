@@ -13,8 +13,15 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 })
 
+/**
+ * The main game "loop", valled when the script is first loaded
+ * and after the user's answer had been processed
+ */
 function runGame() {
 
+    /* creates two random numbers */
+    let num1 = Math.floor(Math.random() * 25) + 1;
+    let num2 = Math.floor(Math.random() * 25) + 1;
 }
 
 function checkAnswer() {
